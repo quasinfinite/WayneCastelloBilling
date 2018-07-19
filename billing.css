@@ -1,0 +1,39 @@
+h1 { text-align: center;
+}
+body{}
+#letterhead { text-align: center;
+										 padding-bottom: 10px;
+}
+#datetop { text-align: center;
+								 padding-bottom: 50px;
+}
+#address { padding-bottom: 20px;}
+#re { text-align: center;
+}
+#title { padding-bottom: 10px;
+					 font-weight: bold;
+}
+#footerthank { font-weight: bold;
+											padding-bottom: 10px;
+											text-align: center;
+}
+#footerfile { font-size: 0.8em;
+									 font-weight: bold;
+}
+#wrapper { margin-left: auto;
+									margin-right: auto;
+									width: 80%;
+									min-width: 700px;
+}
+table { padding-bottom: 10px;
+					 width: 100%;
+					 margin: auto;
+}
+td, th { padding: 5px;}
+hr { font-weight: bold;
+}
+.cost { padding-bottom: 10px;}
+.description {}
+.bold { font-weight: bold;
+				text-decoration: underline;
+}

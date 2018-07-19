@@ -1,0 +1,81 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<!--
+	With the following code, I will attempt to create an html page that allows a user to input four columns of information. The first column will be the date, the second is a description of a charge or service, the third will be amount of time the service required and the fourth will be the charge. I hope to send this information to a form that will return the values formatted and saved on an html page during the assembly of the bill.  Finally, I want to allow the user to print this information in an appropriate format to submit to a client.
+-->
+<title>Billing Application</title>
+<link rel="stylesheet" href="billing.css" />
+</head>
+
+<body>
+	<div id="wrapper">
+	<h1>Billing Application</h1>	
+	<div id="letterhead">LAW OFFICES<br>
+																	WAYNE P. CASTELLO<br>
+																	13611 N. W. 1ST LANE, SUITE 100<br>
+																	JONESVILLE, FL 32669-2664<br>
+																	E-Mail: wayne19@bellsouth.net<br>
+																	(352) 377-4422<br>
+																	FAX: (352) 373-5792</div>
+	<div id="datetop">November 11th, 2013</div>
+	<div id="address">Margaret Made-Up<br>
+															 C/O Harold Made-Up<br>
+															 12345 Some St.<br>
+															 Happytown, FL 32607-3252</div>
+	<div id="re">Re: &nbsp;&nbsp;Estate Administration<br>
+											2012-000</div>
+	<hr>
+	<div id="title">TO FEE FOR SERVICES RENDERED:</div>
+				
+		<table>
+			<tr>
+				<td class="cost" colspan="3">COSTS ADVANCED:</td>
+				<td class="bold">Amount</td>
+			</tr>
+			<tr>
+				<td>7/06/2012</td>
+				<td class="description" colspan="2">J.K. Irby, Clerk of the Circuit Court, [for Court filing fee]</td>
+				<td >$400.00</td>
+			</tr>
+			<tr>
+				<td class="cost" colspan="3">TOTAL COSTS ADVANCED:</td>
+				<td>$000.000</td>
+			</tr>
+			<tr>
+				<td class="cost" colspan="2">ATTORNEY'S FEES:</td>
+				<td class="bold">Hour(s)</td>
+				<td class="bold">Amount</td>
+			</tr>
+			<tr>
+				<td>06/18/2012</td>
+				<td>Office conference with J.J. Made-Up, CPA</td>
+				<td>1.00</td>
+				<td>$300.00</td>
+			</tr>
+			<tr>
+				<td class="cost" colspan="3">TOTAL ATTORNEY'S FEES:</td>
+				<td>$0,000.00</td>
+			</tr>
+			<tr>
+				<td class="cost" colspan="3">TOTAL COSTS AND ATTORNEY'S FEES:</td>
+				<td>$0,000.00</td>
+			</tr>
+			<tr>
+				<td>LESS:</td>
+			</tr>
+			<tr>
+				<td>07/05/2012</td>
+				<td colspan="2">Thank you for Costs Deposit ($700.00) and Attorney's Fee Retainer ($2,500.00) received</td>
+				<td>($3,200.00)</td>
+			</tr>
+			<tr>
+				<td class="cost" colspan="3">BALANCE DUE:</td>
+				<td>$0,000.00</td>
+			</tr>
+		</table>
+	<div id="footerthank">THANK YOU! We Appreciate your business.</div>
+	<div id="footerfile">2012-000.Made-Up.bil</div>
+	</div>
+</body>
+</html>
